@@ -1,0 +1,130 @@
+body  {
+    text-align: center;
+    background-color: #ffffff;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border-color: #dddddd;
+    color: #777777;
+
+
+}   
+
+header, 
+nav
+ {
+    float: left;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: #ffffff;
+    width: 100%;
+    height: 90px;
+    margin-bottom: 10px;
+    border-color: #cccccc;
+    border-bottom-style: solid;
+
+
+}
+#imgbg {
+        float: left;
+        margin-top: -100px;
+        width: 99vw;
+        height: 75vh;
+}
+.navul {
+    position: relative;
+    float: right;
+    height: 90px;
+    top: -75px;
+    margin-right: 300px;
+}
+
+li {
+    display: inline;
+    margin-left: 20px;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: 50px;
+
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+.relativebox {
+    float: left;
+    position: absolute;
+    width: 960px;
+    height: 380px;
+    margin-top: 160px;
+    margin-left: 350px;
+    background-color: #ffffff;
+    border-style: solid;
+    border-color:  #dddddd;
+}
+
+.box-1 {
+    color: #4aaaa5;
+    text-align: left;
+}
+.head-1 {
+        position: fixed;
+        width: 220px;
+        height: 80px;
+        margin-top: 10px;
+        background: #4aaaa5;
+        text-align: center;
+        color: white;
+        margin-left: 350px;
+
+      }
+
+footer {
+    float: left;
+    padding: 10px;
+    background-color: #666666;
+    height: 50px;
+    clear: both;
+    width: 100%;
+}
+
+hr {
+    float: left;
+    width: 90%;
+    margin-left: 10px;
+    margin-right: auto;
+    border-width: 2px;
+    border-color: #dddddd;
+    }
+
+a, u, p {
+        text-decoration: none;
+        color: #777777;
+    }
+
+#mypic {
+        float: left;
+        margin-left: 10px;
+}
+.box-2 {
+    float: left;
+}
+.box-3 {
+    float: relative;
+}
+
+a:hover {
+    background-color: black;
+}
+a:active {
+    background-color: navy;
+}
+
+a:focus {
+    background-color: green;
+    color: white;
+}
+span {
+    display: inline-block;
+}
