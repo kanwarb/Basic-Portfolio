@@ -54,7 +54,7 @@ h1 {
     float: left;
     position: absolute;
     width: 50%;
-    height: 50%;
+    height: 60%;
     margin-top: 160px;
     margin-left: 19%;
     background-color: #ffffff;
@@ -113,7 +113,12 @@ a, u, p {
         width: 20%;
 }
 .box-2 {
-    float: left;
+    float: relative;
+    width: 90%;
+    height: 100%;
+    margin: 1% 5% 5% 5%;
+
+    
 }
 .box-3 {
     float: left;
@@ -137,7 +142,7 @@ h2 {
 .imgport {
     float: left;
     width:  220px;
-    height: 220px;
+    height: 180px;
     margin-left: 20px;
 }
 
@@ -145,9 +150,9 @@ span {
     float: left;
     background-color: #4aaaa5;
     color: white;
-    margin-left: -222px;
-    margin-top: 160px;
-    width: 11%;
+    margin-left: -20%;
+    margin-top: 16%;
+    width: 19%;
     text-align: center;
 }
 
@@ -165,6 +170,7 @@ button {
     background-color:#4aaaa5;
     color:white;
     margin-left: 10px;
+    margin-top: 0.5%;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
