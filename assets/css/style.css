@@ -146,3 +146,11 @@ span {
     width: 11%;
     text-align: center;
 }
+
+textarea, 
+input {
+    float: left;
+    margin-left: 10px;
+    width: 90%;
+    margin-top: 10px;
+}
